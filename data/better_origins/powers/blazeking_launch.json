@@ -4,7 +4,7 @@
   "description": "Every 10 seconds, you are able to launch about 20 blocks up into the air.",
   "cooldown": {
     "type": "origins:cooldown",
-    "cooldown": 200,
+    "cooldown": 300,
     "hud_render": {
       "should_render": true,
       "bar_index": 15,
@@ -57,6 +57,44 @@
       "resource": "*:*_cooldown",
       "comparison": "==",
       "compare_to": 0
+    }
+  },
+  "fireball": {
+    "type": "origins:action_on_item_use",
+    "name": "Blaze Wrath",
+    "description": "While you're in the air thanks to your launch ability, you can shoot fireballs by having a flint and steel in your main hand.",
+    "trigger": "instant",
+    "entity_action": {
+      "type": "origins:fire_projectile",
+      "entity_type": "minecraft:small_fireball",
+      "interval": 5
+    },
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "mainhand",
+          "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+              "item": "minecraft:blaze_powder"
+            }
+          }
+        },
+        {
+          "type": "origins:resource",
+          "resource": "*:*_cooldown",
+          "comparison": ">=",
+          "compare_to": 200
+        },
+        {
+          "type": "origins:resource",
+          "resource": "*:*_cooldown",
+          "comparison": "!=",
+          "compare_to": 0
+        }
+      ]
     }
   }
 }
