@@ -1,0 +1,24 @@
+{
+  "name": "Perfect Sleep",
+  "description": "To be able to sleep, you need to be at least 86 blocks high, while not being in a claustrophobic state.",
+  "type": "origins:prevent_sleep",
+  "condition": {
+    "type": "origins:or",
+    "conditions": [
+      {
+        "type": "origins:raycast",
+        "distance": 4.5,
+        "block_condition": {
+          "type": "origins:height",
+          "comparison": "<",
+          "compare_to": 86
+        }
+      },
+      {
+        "type": "origins:power_active",
+        "power": "dragonborn_origin:dragonborn_claustrophobia"
+      }
+    ]
+  },
+  "message": "You need fresh air while not being claustrophobic"
+}

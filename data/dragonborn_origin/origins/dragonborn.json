@@ -1,0 +1,22 @@
+{
+  "powers": [
+    "dragonborn_origin:dragonborn_elytra",
+    "dragonborn_origin:dragonborn_launch",
+    "dragonborn_origin:claws",
+    "dragonborn_origin:dragon_ride",
+    "dragonborn_origin:carry",
+    "origins:aerial_combatant",
+    "dragonborn_origin:dragonborn_water_slowness",
+    "dragonborn_origin:dragonborn_claustrophobia",
+    "dragonborn_origin:dragonborn_fresh_air",
+    "origins:more_kinetic_damage",
+    "origins:no_shield",
+    "origins:more_exhaustion"
+  ],
+  "icon": "minecraft:dragon_head",
+  "order": 4,
+  "impact": 3,
+  "name": "Dragonborn",
+  "description": "Children of the legendary Ender Dragon, dragonborns can fly and have powerful claws which allow them to climb any surfaces. They can carry mobs and players on their back, and give them a free ride. However, water is their worst enemy and they can't hold a shield because of their claws."
+
+}

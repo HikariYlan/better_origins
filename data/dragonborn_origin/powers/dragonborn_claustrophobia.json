@@ -1,0 +1,29 @@
+{
+    "type": "origins:stacking_status_effect",
+    "name": "Claustrophobia",
+    "description": "Your constant need of fresh air makes you hate closed space, which slows you down and makes you weak.",
+    "min_stacks": 1,
+    "max_stacks": 1,
+    "duration_per_stack": 200,
+    "amplifier": 1,
+    "effects": [
+      {
+        "effect": "minecraft:slowness",
+        "is_ambient": true,
+        "show_particles": false,
+        "show_icon": true
+      },
+      {
+        "effect": "minecraft:weakness",
+        "is_ambient": true,
+        "show_particles": false,
+        "show_icon": true
+      }
+    ],
+    "condition": {
+      "type": "origins:block_collision",
+      "offset_x": 0,
+      "offset_y": 1,
+      "offset_z": 0
+    }
+  }

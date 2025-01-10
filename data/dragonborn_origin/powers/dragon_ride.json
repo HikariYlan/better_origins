@@ -1,0 +1,71 @@
+{
+	"name": "Dragon Ride",
+	"description": "You are strong enough to carry someone on your shoulders. People can mount you when you're not moving, and you can give a free flight to your friends ! Force dismount rider by sneaking and jump.",
+	"type": "apoli:multiple",
+	"ride_mount": {
+		"type": "apoli:action_on_being_used",
+		"bientity_action": {
+			"type": "apoli:and",
+			"actions": [
+				{
+					"type": "apoli:mount"
+				}
+			]
+		},
+		"condition": {
+			"type": "apoli:and",
+			"conditions": [
+				{
+					"type": "apoli:moving",
+					"inverted": true
+				},
+				{
+					"type": "apoli:sneaking"
+				},
+				{
+					"type": "apoli:passenger",
+					"inverted": true
+				}
+			]
+		}
+	},
+	"ride_dismount_self": {
+		"type": "apoli:active_self",
+		"cooldown": 1,
+		"hud_render": {
+			"should_render": false
+		},
+		"entity_action": {
+			"type": "origins:if_else_list",
+			"actions": [
+				{
+					"condition": {
+						"type": "apoli:and",
+						"conditions": [
+							{
+								"type": "apoli:sneaking"
+							},
+							{
+								"type": "apoli:passenger"
+							}
+						]
+					},
+					"action": {
+						"type": "apoli:and",
+						"actions": [
+							{
+								"type": "apoli:passenger_action",
+								"action": {
+									"type": "apoli:dismount"
+								}
+							}
+						]
+					}
+				}
+			]
+		},
+		"key": {
+			"key": "key.jump"
+		}
+	}
+}
