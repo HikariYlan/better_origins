@@ -7,11 +7,11 @@
     "effects": [
       {
         "effect": "minecraft:regeneration",
-        "duration": 12
+        "duration": 24
       },
       {
         "effect": "minecraft:saturation",
-        "duration": 12
+        "duration": 24
       }
     ]
   },
@@ -30,6 +30,11 @@
           "type": "origins:block",
           "block": "minecraft:fire"
         }
+      },
+      {
+        "type": "origins:food_level",
+        "comparison": "<=",
+        "compare_to": 6
       }
     ]
   }
