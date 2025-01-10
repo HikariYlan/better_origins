@@ -1,14 +1,14 @@
 {
   "powers": [
-    "dragonborn_origin:dragonborn_elytra",
-    "dragonborn_origin:dragonborn_launch",
-    "dragonborn_origin:claws",
-    "dragonborn_origin:dragon_ride",
-    "dragonborn_origin:carry",
+    "better_origins:dragonborn_elytra",
+    "better_origins:dragonborn_launch",
+    "better_origins:dragonborn_claws",
+    "better_origins:dragonborn_dragon_ride",
+    "better_origins:dragonborn_carry",
     "origins:aerial_combatant",
-    "dragonborn_origin:dragonborn_water_slowness",
-    "dragonborn_origin:dragonborn_claustrophobia",
-    "dragonborn_origin:dragonborn_fresh_air",
+    "better_origins:dragonborn_water_slowness",
+    "better_origins:dragonborn_claustrophobia",
+    "better_origins:dragonborn_fresh_air",
     "origins:more_kinetic_damage",
     "origins:no_shield",
     "origins:more_exhaustion"
