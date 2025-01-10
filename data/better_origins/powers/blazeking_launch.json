@@ -1,0 +1,113 @@
+{
+  "type": "origins:multiple",
+  "name": "Blaze Launch",
+  "description": "Every 10 seconds, you are able to launch about 20 blocks up into the air.",
+  "cooldown": {
+    "type": "origins:cooldown",
+    "cooldown": 300,
+    "hud_render": {
+      "should_render": true,
+      "bar_index": 15,
+      "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png"
+    }
+  },
+  "launch": {
+    "type": "origins:action_on_item_use",
+    "trigger": "instant",
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:trigger_cooldown",
+          "power": "*:*_cooldown"
+        },
+        {
+          "type": "origins:apply_effect",
+          "effect": {
+            "effect": "minecraft:slow_falling",
+            "duration": 100
+          }
+        },
+        {
+          "type": "origins:equipped_item_action",
+          "equipment_slot": "mainhand",
+          "action": {
+            "type": "origins:consume",
+            "amount": 1
+          }
+        },
+        {
+          "type": "origins:set_on_fire",
+          "duration": 5
+        },
+        {
+          "type": "origins:add_velocity",
+          "y": 2
+        }
+      ]
+    },
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "minecraft:blaze_rod"
+      }
+    },
+    "condition": {
+      "type": "origins:resource",
+      "resource": "*:*_cooldown",
+      "comparison": "==",
+      "compare_to": 0
+    }
+  },
+  "fireball": {
+    "type": "origins:action_on_item_use",
+    "name": "Blaze Wrath",
+    "description": "While you're in the air thanks to your launch ability, you can shoot fireballs by having a flint and steel in your main hand.",
+    "trigger": "instant",
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:fire_projectile",
+          "entity_type": "minecraft:small_fireball",
+          "interval": 5
+        },
+        {
+          "type": "origins:equipped_item_action",
+          "equipment_slot": "mainhand",
+          "action": {
+            "type": "origins:consume",
+            "amount": 1
+          }
+        }
+      ]
+    },
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "mainhand",
+          "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+              "item": "minecraft:blaze_powder"
+            }
+          }
+        },
+        {
+          "type": "origins:resource",
+          "resource": "*:*_cooldown",
+          "comparison": ">=",
+          "compare_to": 200
+        },
+        {
+          "type": "origins:resource",
+          "resource": "*:*_cooldown",
+          "comparison": "!=",
+          "compare_to": 0
+        }
+      ]
+    }
+  }
+}
