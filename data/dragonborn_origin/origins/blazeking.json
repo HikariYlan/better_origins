@@ -1,0 +1,21 @@
+{
+  "powers": [
+    "origins:flame_particles",
+    "origins:nether_spawn",
+    "origins:fire_immunity",
+    "blazeking_origin:fire_absorption",
+    "blazeking_origin:extinguish",
+    "origins:burning_wrath",
+    "origins:hotblooded",
+    "blazeking_origin:blazeking_water_vulnerability",
+    "blazeking_origin:blazeking_snow_vulnerability",
+    "origins:damage_from_snowballs",
+    "origins:damage_from_potions"
+  ],
+  "icon": "minecraft:fire_charge",
+  "order": 4,
+  "impact": 3,
+  "name": "Blaze King",
+  "description": "To face the 'player' menace facing the blaze tribe, one must wake up to fight: The Blaze King ! Ascend in the sky and shoot fireballs at your opponents, inflame yourself & become unstoppable ! But be careful, as a worthy enemy awaits you: water."
+
+}
