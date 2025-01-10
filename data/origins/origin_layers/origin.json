@@ -1,6 +1,7 @@
 {
   "replace": false,
   "origins": [
-    "dragonborn_origin:dragonborn"
+    "better_origins:dragonborn",
+    "better_origins:blazeking"
   ]
 }
