@@ -25,7 +25,7 @@
           "type": "origins:apply_effect",
           "effect": {
             "effect": "minecraft:slow_falling",
-            "duration": 200
+            "duration": 100
           }
         },
         {
@@ -53,9 +53,10 @@
       }
     },
     "condition": {
-      "type": "origins:status_effect",
-      "effect": "minecraft:slow_falling",
-      "inverted": true
+      "type": "origins:resource",
+      "resource": "*:*_cooldown",
+      "comparison": "==",
+      "compare_to": 0
     }
   }
 }
