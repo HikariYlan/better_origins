@@ -1,31 +1,61 @@
 {
-  "type": "origins:launch",
-  "cooldown": 100,
-  "name": "Ascending Flight",
-  "description": "Every 5 seconds, you are able to launch about 20 blocks up into the air. Doesn't work under the rain or in water.",
-  "hud_render": {
-    "bar_index": 4
+  "type": "origins:multiple",
+  "name": "Blaze Launch",
+  "description": "Every 10 seconds, you are able to launch about 20 blocks up into the air.",
+  "cooldown": {
+    "type": "origins:cooldown",
+    "cooldown": 200,
+    "hud_render": {
+      "should_render": true,
+      "bar_index": 15,
+      "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png"
+    }
   },
-  "sound": "minecraft:entity.parrot.fly",
-  "speed": 2,
-  "key": {
-    "key": "key.origins.primary_active",
-    "continuous": true
-  },
-  "condition": {
-    "type": "origins:and",
-    "conditions": [
-      {
-        "type": "origins:in_rain",
-        "inverted": true
-      },
-      {
-        "type": "origins:fluid_height",
-        "fluid": "minecraft:water",
-        "comparison": ">",
-        "compare_to": 0.0,
-        "inverted": true
+  "launch": {
+    "type": "origins:action_on_item_use",
+    "trigger": "instant",
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:trigger_cooldown",
+          "power": "*:*_cooldown"
+        },
+        {
+          "type": "origins:apply_effect",
+          "effect": {
+            "effect": "minecraft:slow_falling",
+            "duration": 200
+          }
+        },
+        {
+          "type": "origins:equipped_item_action",
+          "equipment_slot": "mainhand",
+          "action": {
+            "type": "origins:consume",
+            "amount": 1
+          }
+        },
+        {
+          "type": "origins:set_on_fire",
+          "duration": 5
+        },
+        {
+          "type": "origins:add_velocity",
+          "y": 2
+        }
+      ]
+    },
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "minecraft:blaze_rod"
       }
-    ]
+    },
+    "condition": {
+      "type": "origins:status_effect",
+      "effect": "minecraft:slow_falling",
+      "inverted": true
+    }
   }
 }
