@@ -1,7 +1,7 @@
 {
   "type": "origins:multiple",
   "name": "Blaze Launch",
-  "description": "Every 10 seconds, you are able to launch about 20 blocks up into the air.",
+  "description": "Every 15 seconds, by using a blaze rod, you are able to launch about 20 blocks up into the air. You can also shoot fireballs by using blaze powder.",
   "cooldown": {
     "type": "origins:cooldown",
     "cooldown": 300,
@@ -61,8 +61,6 @@
   },
   "fireball": {
     "type": "origins:action_on_item_use",
-    "name": "Blaze Wrath",
-    "description": "While you're in the air thanks to your launch ability, you can shoot fireballs by having a flint and steel in your main hand.",
     "trigger": "instant",
     "entity_action": {
       "type": "origins:and",
