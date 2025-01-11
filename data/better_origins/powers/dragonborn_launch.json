@@ -25,6 +25,10 @@
         "comparison": ">",
         "compare_to": 0.0,
         "inverted": true
+      },
+      {
+        "type": "origins:elytra_flight_possible",
+        "check_abilities": true
       }
     ]
   }
