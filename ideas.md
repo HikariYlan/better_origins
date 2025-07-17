@@ -6,7 +6,7 @@
 - Can shoot laser like the guardians
 - ~~Inflict weakness II for 2 seconds when hitting an entity~~
 - ~~Can breathe/mine/see underwater (base origin)~~
-- Not attacked by guardians
+- ~~Not attacked by guardians~~
 - ~~Doesn't get the mining fatigue effect from the elders~~
 
 ## Cons
