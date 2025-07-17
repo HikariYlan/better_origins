@@ -12,7 +12,8 @@
     "better_origins:guardianprincess_weakness",
     "better_origins:guardianprincess_aquatic_diet_preventing",
     "better_origins:guardianprincess_aquatic_diet_eating",
-    "better_origins:guardianprincess_fatigue_immunity"
+    "better_origins:guardianprincess_fatigue_immunity",
+    "better_origins:guardianprincess_blindness_on_land"
   ],
   "icon": "minecraft:sea_lantern",
   "order": 4,

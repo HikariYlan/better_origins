@@ -32,6 +32,6 @@
     - If the item is used in the overworld, can go back into the dimension
     - (I have to choose the item to use)
 - ~~Cannot breathe on land (base origin)~~
-- Has blindness on land, unless the player has a sea lantern in off-hand
+- ~~Has blindness on land, unless the player has a sea lantern in off-hand~~
 - ~~Can only eat aquatic flora (algae, sea weed, corals, sea cucumbers...)~~
 - Cannot wear leggings and boots, & cannot wear less than iron
