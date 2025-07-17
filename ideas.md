@@ -7,7 +7,7 @@
 - ~~Inflict weakness II for 2 seconds when hitting an entity~~
 - ~~Can breathe/mine/see underwater (base origin)~~
 - Not attacked by guardians
-- Doesn't get the mining fatigue effect from the elders
+- ~~Doesn't get the mining fatigue effect from the elders~~
 
 ## Cons
 - Spawn in a new water-based dimension (possible with datapack)
@@ -34,4 +34,4 @@
 - ~~Cannot breathe on land (base origin)~~
 - Has blindness on land, unless the player has a sea lantern in off-hand
 - ~~Can only eat aquatic flora (algae, sea weed, corals, sea cucumbers...)~~
-- Cannot wear leggins and boots, & cannot wear less than iron
+- Cannot wear leggings and boots, & cannot wear less than iron
