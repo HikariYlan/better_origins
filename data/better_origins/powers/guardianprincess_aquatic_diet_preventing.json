@@ -1,0 +1,20 @@
+{
+  "name": "Aquatic Diet",
+  "description": "Being a guardian, you can only eat aquatic flora (seagrass, sea pickles, kelp, corals...)",
+  "type": "origins:prevent_item_use",
+  "item_condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:food"
+      },
+      {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "tag": "origins:ignore_diet"
+        },
+        "inverted": true
+      }
+    ]
+  }
+}
