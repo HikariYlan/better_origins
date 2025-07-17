@@ -1,15 +1,5 @@
 # Guardian Princess
 
-- Merling's powers :
-    - origins:water_breathing
-    - origins:water_vision
-    - origins:aqua_affinity
-    - origins:swim_speed
-    - origins:like_water
-    - origins:aquatic
-    - origins:conduit_power_on_land
-    - origins:air_from_potions
-
 ## Pros
 
 - ~~Has Thorns I by default (even without armor)~~
@@ -41,7 +31,7 @@
 - Has to find an item in order to get out of the dimension
     - If the item is used in the overworld, can go back into the dimension
     - (I have to choose the item to use)
-- Cannot breathe on land
+- ~~Cannot breathe on land (base origin)~~
 - Has blindness on land, unless the player has a sea lantern in off-hand
-- Can only eat aquatic flora (algae, sea weed, corals, sea cucumbers...)
+- ~~Can only eat aquatic flora (algae, sea weed, corals, sea cucumbers...)~~
 - Cannot wear leggins and boots, & cannot wear less than iron

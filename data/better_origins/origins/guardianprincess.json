@@ -9,7 +9,9 @@
     "origins:conduit_power_on_land",
     "origins:air_from_potions",
     "better_origins:guardianprincess_thorns",
-    "better_origins:guardianprincess_weakness"
+    "better_origins:guardianprincess_weakness",
+    "better_origins:guardianprincess_aquatic_diet_preventing",
+    "better_origins:guardianprincess_aquatic_diet_eating"
   ],
   "icon": "minecraft:sea_lantern",
   "order": 4,
