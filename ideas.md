@@ -34,4 +34,4 @@
 - ~~Cannot breathe on land (base origin)~~
 - ~~Has blindness on land, unless the player has a sea lantern in off-hand~~
 - ~~Can only eat aquatic flora (algae, sea weed, corals, sea cucumbers...)~~
-- Cannot wear leggings and boots, & cannot wear less than iron
+- ~~Cannot wear leggings and boots, & cannot wear less than iron~~

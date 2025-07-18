@@ -15,7 +15,8 @@
     "better_origins:guardianprincess_fatigue_immunity",
     "better_origins:guardianprincess_blindness_on_land",
     "better_origins:guardianprincess_teammaker",
-    "better_origins:guardianprincess_family"
+    "better_origins:guardianprincess_family",
+    "better_origins:guardianprincess_strict_armor"
   ],
   "icon": "minecraft:sea_lantern",
   "order": 4,
