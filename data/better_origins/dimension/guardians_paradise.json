@@ -1,0 +1,24 @@
+{
+  "type": "better_origins:guardian_paradise",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "minecraft:deep_cold_ocean",
+      "layers": [
+        {
+          "height": 1,
+          "block": "minecraft:bedrock"
+        },
+        {
+          "height": 5,
+          "block": "minecraft:gravel"
+        },
+        {
+          "height": 121,
+          "block": "minecraft:water"
+        }
+      ],
+      "structure_overrides": "minecraft:ocean_monuments"
+    }
+  }
+}
