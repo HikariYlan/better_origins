@@ -11,7 +11,7 @@
 
 ## Cons
 - ~~Spawn in the overworld, in an ocean monument~~
-- Change the craft of the sea lantern to put something rare (less rare than heart of the sea)
+- ~~Change the craft of the sea lantern to complicate it a bit~~
 - ~~Cannot breathe on land (base origin)~~
 - ~~Has blindness on land, unless the player has a sea lantern in off-hand~~
 - ~~Can only eat aquatic flora (algae, sea weed, corals, sea cucumbers...)~~
