@@ -59,5 +59,11 @@
   },
   "key": {
     "key": "key.use"
+  },
+  "condition": {
+    "type": "origins:resource",
+    "resource": "better_origins:guardianprincess_cooldown",
+    "comparison": "==",
+    "compare_to": 0
   }
 }
