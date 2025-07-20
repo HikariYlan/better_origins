@@ -1,0 +1,13 @@
+{
+  "type": "origins:target_action_on_hit",
+  "name": "Blessing of the elders",
+  "description": "The elders gave you the ability to inflict Weakness II for 2 seconds when hitting an entity.",
+  "entity_action": {
+    "type": "origins:apply_effect",
+    "effect": {
+      "effect": "minecraft:weakness",
+      "amplifier": 1,
+      "duration": 40
+    }
+  }
+}

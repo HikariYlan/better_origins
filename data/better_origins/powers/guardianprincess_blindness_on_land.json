@@ -1,0 +1,41 @@
+{
+  "type": "origins:stacking_status_effect",
+  "name": "Fishy eyes",
+  "description": "While on land, you are not able to see anything, except if you are holding a sea lantern in your off-hand.",
+  "min_stacks": 1,
+  "max_stacks": 1,
+  "duration_per_stack": 40,
+  "effects": [
+    {
+      "effect": "minecraft:blindness",
+      "is_ambient": true,
+      "show_particles": false,
+      "show_icon": true
+    }
+  ],
+  "condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:equipped_item",
+        "equipment_slot": "offhand",
+        "item_condition": {
+          "type": "origins:ingredient",
+          "ingredient": {
+            "item": "minecraft:sea_lantern"
+          }
+        },
+        "inverted": true
+      },
+      {
+        "type": "origins:submerged_in",
+        "fluid": "minecraft:water",
+        "inverted": true
+      },
+      {
+        "type": "origins:in_rain",
+        "inverted": true
+      }
+    ]
+  }
+}

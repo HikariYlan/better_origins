@@ -1,0 +1,30 @@
+{
+  "powers": [
+    "origins:water_breathing",
+    "origins:water_vision",
+    "origins:aqua_affinity",
+    "origins:swim_speed",
+    "origins:like_water",
+    "origins:aquatic",
+    "origins:conduit_power_on_land",
+    "origins:air_from_potions",
+    "better_origins:guardianprincess_thorns",
+    "better_origins:guardianprincess_weakness",
+    "better_origins:guardianprincess_aquatic_diet_preventing",
+    "better_origins:guardianprincess_aquatic_diet_eating",
+    "better_origins:guardianprincess_fatigue_immunity",
+    "better_origins:guardianprincess_blindness_on_land",
+    "better_origins:guardianprincess_teammaker",
+    "better_origins:guardianprincess_family",
+    "better_origins:guardianprincess_strict_armor",
+    "better_origins:guardianprincess_spawn_modifier",
+    "better_origins:guardianprincess_pull_scale",
+    "better_origins:guardianprincess_aoe",
+    "better_origins:guardianprincess_cooldown"
+  ],
+  "icon": "minecraft:sea_lantern",
+  "order": 4,
+  "impact": 3,
+  "name": "Guardian Princess",
+  "description": "Humanoid guardian that spawn every 1000 years, guardian princesses can breathe, mine and see underwater, but cannot be on land without a sea lantern to see properly. They can shoot laser, has thorns event without armor and can weaken their opponents when hitting them."
+}

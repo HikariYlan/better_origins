@@ -1,0 +1,25 @@
+{
+  "type": "origins:restrict_armor",
+  "name": "Guardian tail",
+  "description": "Your guardian tail prevents you from wearing leggings and boots. You also cannot wear leather armor, as it would teared apart by you spiky scales.",
+  "head": {
+    "type": "origins:armor_value",
+    "comparison": "<",
+    "compare_to": 2
+  },
+  "chest": {
+    "type": "origins:armor_value",
+    "comparison": "<",
+    "compare_to": 5
+  },
+  "legs": {
+    "type": "origins:armor_value",
+    "comparison": "!=",
+    "compare_to": 0
+  },
+  "feet": {
+    "type": "origins:armor_value",
+    "comparison": "!=",
+    "compare_to": 0
+  }
+}

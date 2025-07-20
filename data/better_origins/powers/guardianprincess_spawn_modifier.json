@@ -1,0 +1,8 @@
+{
+  "name": "Inhabitant of Atlantide",
+  "description": "You spawn in an ocean monument with your family, trying to figure how to start to live on land.",
+  "type": "origins:modify_player_spawn",
+  "dimension": "minecraft:overworld",
+  "structure": "minecraft:monument",
+  "spawn_strategy": "center"
+}

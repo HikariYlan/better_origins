@@ -1,0 +1,69 @@
+{
+  "type": "origins:action_on_item_use",
+  "trigger": "instant",
+  "name": "Grace of the princess",
+  "description": "By sacrificing one of you scales and half of your life, you can give Strengh, Resistance & Regeneration for 30 seconds in a 32 blocks radius.",
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:area_of_effect",
+        "radius": 32,
+        "bientity_action": {
+          "type": "origins:target_action",
+          "action": {
+            "type": "origins:apply_effect",
+            "effects": [
+              {
+                "effect": "minecraft:strength",
+                "duration": 600,
+                "amplifier": 0
+              },
+              {
+                "effect": "minecraft:resistance",
+                "duration": 600,
+                "amplifier": 0
+              },
+              {
+                "effect": "minecraft:regeneration",
+                "duration": 600,
+                "amplifier": 0
+              }
+            ]
+          }
+        }
+      },
+      {
+        "type": "origins:damage",
+        "amount": 10,
+        "damage_type": "minecraft:on_fire"
+      },
+      {
+        "type": "origins:trigger_cooldown",
+        "power": "better_origins:guardianprincess_cooldown"
+      }
+    ],
+    "bientity_condition": {
+      "type": "origins:can_see"
+    }
+  },
+  "item_action": {
+    "type": "origins:consume",
+    "amount": 1
+  },
+  "item_condition": {
+    "type": "origins:ingredient",
+    "ingredient": {
+      "item": "minecraft:prismarine_shard"
+    }
+  },
+  "key": {
+    "key": "key.use"
+  },
+  "condition": {
+    "type": "origins:resource",
+    "resource": "better_origins:guardianprincess_cooldown",
+    "comparison": "==",
+    "compare_to": 0
+  }
+}

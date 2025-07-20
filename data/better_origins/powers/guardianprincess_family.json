@@ -1,0 +1,27 @@
+{
+  "name": "A Spiky Family",
+  "description": "Guardians and elders guardians won't attack you. What a weird family!",
+  "hidden": false,
+  "type": "origins:action_over_time",
+  "interval": 20,
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:execute_command",
+        "command": "team join Guardians @s",
+        "permission_level": 4
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "team join Guardians @e[type=minecraft:guardian]",
+        "permission_level": 4
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "team join Guardians @e[type=minecraft:elder_guardian]",
+        "permission_level": 4
+      }
+    ]
+  }
+}

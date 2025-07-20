@@ -1,0 +1,8 @@
+{
+  "type": "origins:effect_immunity",
+  "name": "One of our people",
+  "description": "You are not affected by the Mining Fatigue effect from the elder guardians.",
+  "effects": [
+    "minecraft:mining_fatigue"
+  ]
+}
