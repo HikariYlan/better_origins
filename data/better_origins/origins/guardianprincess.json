@@ -17,7 +17,8 @@
     "better_origins:guardianprincess_teammaker",
     "better_origins:guardianprincess_family",
     "better_origins:guardianprincess_strict_armor",
-    "better_origins:guardianprincess_spawn_modifier"
+    "better_origins:guardianprincess_spawn_modifier",
+    "better_origins:guardianprincess_pull_scale"
   ],
   "icon": "minecraft:sea_lantern",
   "order": 4,
