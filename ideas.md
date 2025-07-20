@@ -7,7 +7,7 @@
 - ~~Can breathe/mine/see underwater (base origin)~~
 - ~~Not attacked by guardians~~
 - ~~Doesn't get the mining fatigue effect from the elders~~
-- By right-clicking with a scale in the main hand, can give an AOE of some bonus effects (TBD), with a cooldown of 2 minutes & half of the hearts
+- ~~By right-clicking with a scale in the main hand, can give an AOE of some bonus effects (TBD), with a cooldown of 2 minutes & half of the hearts~~
 
 ## Cons
 - ~~Spawn in the overworld, in an ocean monument~~
@@ -19,4 +19,4 @@
 
 ## Neutral
 
-- By sneak-right clicking with both hands empty, can "pull out" a scale (give a prismarine shard), with a cooldown of 30 seconds, and take 1 heart of damage that ignores armor
+- ~~By sneak-right clicking with both hands empty, can "pull out" a scale (give a prismarine shard), with a cooldown of 30 seconds, and take 1 heart of damage that ignores armor~~
