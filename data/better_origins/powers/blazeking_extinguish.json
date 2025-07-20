@@ -21,6 +21,14 @@
     ]
   },
   "condition": {
-    "type": "origins:on_fire"
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:on_fire"
+      },
+      {
+        "type": "origins:sneaking"
+      }
+    ]
   }
 }
