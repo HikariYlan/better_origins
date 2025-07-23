@@ -1,0 +1,8 @@
+{
+  "name": "Inhabitant of the dark",
+  "description": "You spawn in an ancient city, trying to figure how to climb to the surface.",
+  "type": "origins:modify_player_spawn",
+  "dimension": "minecraft:overworld",
+  "structure": "minecraft:ancient_city",
+  "spawn_strategy": "center"
+}
