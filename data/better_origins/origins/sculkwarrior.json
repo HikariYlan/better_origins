@@ -1,7 +1,8 @@
 {
   "powers": [
     "better_origins:sculkwarrior_blindness",
-    "better_origins:sculkwarrior_spawn_modifier"
+    "better_origins:sculkwarrior_spawn_modifier",
+    "better_origins:sculkwarrior_strength"
   ],
   "icon": "minecraft:sculk_shrieker",
   "order": 4,
