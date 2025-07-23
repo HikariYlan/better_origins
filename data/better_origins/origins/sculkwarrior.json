@@ -1,5 +1,7 @@
 {
-  "powers": [],
+  "powers": [
+    "better_origins:sculkwarrior_blindness"
+  ],
   "icon": "minecraft:sculk_shrieker",
   "order": 4,
   "impact": 3,
