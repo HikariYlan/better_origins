@@ -1,12 +1,13 @@
 {
   "powers": [
-    "better_origins:sculkwarrior_blindness",
     "better_origins:sculkwarrior_spawn_modifier",
+    "better_origins:sculkwarrior_blindness",
     "better_origins:sculkwarrior_strength",
     "better_origins:sculkwarrior_phasing",
     "better_origins:sculkwarrior_phasing_toggle",
     "better_origins:sculkwarrior_phasing_overlay",
-    "better_origins:sculkwarrior_phasing_invisibility"
+    "better_origins:sculkwarrior_phasing_invisibility",
+    "better_origins:sculkwarrior_extra_reach"
   ],
   "icon": "minecraft:sculk_shrieker",
   "order": 4,

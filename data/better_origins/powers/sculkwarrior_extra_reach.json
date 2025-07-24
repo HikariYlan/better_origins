@@ -1,0 +1,19 @@
+{
+  "type": "origins:attribute",
+  "name": "Extra Reach",
+  "description": "You are able to reach 1 block further than usual.",
+  "modifiers": [
+    {
+      "name": "Extra Reach block reach",
+      "attribute": "reach-entity-attributes:reach",
+      "value": 1,
+      "operation": "addition"
+    },
+    {
+      "name": "Extra Reach entity reach",
+      "attribute": "reach-entity-attributes:attack_range",
+      "value": 1,
+      "operation": "addition"
+    }
+  ]
+}
