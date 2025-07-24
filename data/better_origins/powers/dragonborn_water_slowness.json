@@ -1,30 +1,30 @@
 {
-    "type": "origins:stacking_status_effect",
-    "name": "Wet feathers",
-    "description": "When you are in water or when it rain, your dragon scales become wet and heavy. You have slowness until you get out of the water or the rain is over.",
-    "min_stacks": 1,
-    "max_stacks": 1,
-    "duration_per_stack": 60,
-    "effects": [
-      {
-        "effect": "minecraft:slowness",
-        "is_ambient": true,
-        "show_particles": false,
-        "show_icon": true
-      }
-    ],
-    "condition": {
-      "type": "origins:or",
-      "conditions": [
-        {
-          "type": "origins:fluid_height",
-          "fluid": "minecraft:water",
-          "comparison": ">",
-          "compare_to": 0.0
-        },
-        {
-          "type": "origins:in_rain"
-        }
-      ]
+  "type": "origins:stacking_status_effect",
+  "name": "Wet feathers",
+  "description": "When you are in water or when it rain, your dragon scales become wet and heavy. You have slowness until you get out of the water or the rain is over.",
+  "min_stacks": 1,
+  "max_stacks": 1,
+  "duration_per_stack": 60,
+  "effects": [
+    {
+      "effect": "minecraft:slowness",
+      "is_ambient": true,
+      "show_particles": false,
+      "show_icon": true
     }
+  ],
+  "condition": {
+    "type": "origins:or",
+    "conditions": [
+      {
+        "type": "origins:fluid_height",
+        "fluid": "minecraft:water",
+        "comparison": ">",
+        "compare_to": 0.0
+      },
+      {
+        "type": "origins:in_rain"
+      }
+    ]
   }
+}

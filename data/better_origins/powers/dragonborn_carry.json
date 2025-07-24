@@ -1,6 +1,6 @@
 {
-  "name":"Carry",
-  "description":" You can carry any entity on your back, but unlike the dragon power, it can also be a cow, a chicken...",
+  "name": "Carry",
+  "description": "You can carry any entity on your back, but unlike the dragon power, it can also be a cow, a chicken...",
   "type": "apoli:multiple",
   "pickup": {
     "type": "apoli:action_on_entity_use",
