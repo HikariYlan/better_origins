@@ -1,0 +1,31 @@
+{
+  "type": "origins:phasing",
+  "hidden": true,
+  "blacklist": true,
+  "render_type": "none",
+  "block_condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:block",
+        "block": "minecraft:sculk",
+        "inverted": true
+      }
+    ]
+  },
+  "phase_down_condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:sneaking"
+      },
+      {
+        "type": "origins:on_block"
+      }
+    ]
+  },
+  "condition": {
+    "type": "origins:power_active",
+    "power": "better_origins:sculkwarrior_phasing_toggle"
+  }
+}
