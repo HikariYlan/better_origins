@@ -7,8 +7,8 @@
     "type": "origins:and",
     "conditions": [
       {
-        "type": "origins:block",
-        "block": "minecraft:sculk",
+        "type": "origins:in_tag",
+        "tag": "apoli:material/sculk",
         "inverted": true
       }
     ]
