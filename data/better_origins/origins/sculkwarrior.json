@@ -16,7 +16,9 @@
     "better_origins:sculkwarrior_rocky_diet_preventing",
     "better_origins:sculkwarrior_rocky_diet_eating",
     "better_origins:sculkwarrior_daredevil",
-    "better_origins:sculkwarrior_more_fall_damage"
+    "better_origins:sculkwarrior_more_fall_damage",
+    "better_origins:sculkwarrior_no_weapons",
+    "better_origins:sculkwarrior_no_bows_shield"
   ],
   "icon": "minecraft:sculk_shrieker",
   "order": 4,
