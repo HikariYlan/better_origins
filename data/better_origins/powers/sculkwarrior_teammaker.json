@@ -1,0 +1,12 @@
+{
+  "name": "Teammaker",
+  "description": "Makes the sculk team",
+  "hidden": true,
+  "type": "origins:action_on_callback",
+  "entity_action_chosen": {
+    "type": "origins:execute_command",
+    "command": "team add Sculk",
+    "permission_level": 4
+  },
+  "execute_chosen_when_orb": true
+}

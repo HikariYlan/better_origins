@@ -1,0 +1,20 @@
+{
+  "name": "Rocky Diet",
+  "description": "You can only eat deepslate or its cobbled version.",
+  "type": "origins:prevent_item_use",
+  "item_condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:food"
+      },
+      {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "tag": "origins:ignore_diet"
+        },
+        "inverted": true
+      }
+    ]
+  }
+}

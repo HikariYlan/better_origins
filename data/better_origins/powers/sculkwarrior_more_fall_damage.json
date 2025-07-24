@@ -1,0 +1,14 @@
+{
+  "type": "origins:modify_damage_taken",
+  "name": "Heavy legs",
+  "description": "Because of you natural armor which makes you heavier, you take more fall damage when landing.",
+  "damage_condition": {
+    "type": "origins:name",
+    "name": "fall"
+  },
+  "modifier": {
+    "name": "Heavy legs",
+    "operation": "addition",
+    "value": 15
+  }
+}

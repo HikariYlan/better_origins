@@ -1,0 +1,32 @@
+{
+  "type": "origins:active_self",
+  "name": "Call for help",
+  "description": "Even the best warriors can lose a battle. If your health is low enough, you can summon a warden to help you.",
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:spawn_entity",
+        "entity_type": "minecraft:warden",
+        "tag": "{Brain: {memories: {\"minecraft:dig_cooldown\":{value: {}, ttl: 1200L}, \"minecraft:is_emerging\": {value: {}, ttl: 85L}}}}"
+      },
+      {
+        "type": "origins:play_sound",
+        "sound": "minecraft:entity.warden.roar"
+      }
+    ]
+  },
+  "cooldown": 12000,
+  "hud_render": {
+    "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
+    "bar_index": 18
+  },
+  "key": {
+    "key": "key.origins.secondary_active"
+  },
+  "condition": {
+    "type": "origins:health",
+    "comparison": "<",
+    "compare_to": 10
+  }
+}

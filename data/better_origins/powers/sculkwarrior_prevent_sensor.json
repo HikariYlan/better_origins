@@ -1,0 +1,28 @@
+{
+  "type": "origins:prevent_game_event",
+  "name": "Silent running",
+  "description": "Your affiliation to sculk makes you able to not trigger sculk sensor, except if you walk directly on it.",
+  "events": [
+    "minecraft:step",
+    "minecraft:swim",
+    "minecraft:hit_ground",
+    "minecraft:splash",
+    "minecraft:prime_fuse",
+    "minecraft:projectile_shoot",
+    "minecraft:eat",
+    "minecraft:equip",
+    "minecraft:shear",
+    "minecraft:block_close",
+    "minecraft:block_detach",
+    "minecraft:block_open",
+    "minecraft:block_attach",
+    "minecraft:block_place",
+    "minecraft:entity_place",
+    "minecraft:fluid_place",
+    "minecraft:block_destroy",
+    "minecraft:fluid_pickup",
+    "minecraft:container_close",
+    "minecraft:container_open",
+    "minecraft:block_change"
+  ]
+}

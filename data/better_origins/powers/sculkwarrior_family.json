@@ -1,0 +1,22 @@
+{
+  "name": "Master's respect",
+  "description": "The wardens, your masters, acknowledged your strength and won't attack you.",
+  "hidden": false,
+  "type": "origins:action_over_time",
+  "interval": 20,
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:execute_command",
+        "command": "team join Sculk @s",
+        "permission_level": 4
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "team join Sculk @e[type=minecraft:warden]",
+        "permission_level": 4
+      }
+    ]
+  }
+}

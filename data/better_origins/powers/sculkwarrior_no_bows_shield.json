@@ -1,0 +1,28 @@
+{
+  "type": "origins:prevent_item_use",
+  "name": "Major test of strength",
+  "description": "Your masters made you learn the hard way, with no weapons & shield allowed. In honor of their legacy, you continue to test your very own strength everyday.",
+  "item_condition": {
+    "type": "origins:or",
+    "conditions": [
+      {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "item": "minecraft:bow"
+        }
+      },
+      {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "item": "minecraft:crossbow"
+        }
+      },
+      {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "item": "minecraft:shield"
+        }
+      }
+    ]
+  }
+}

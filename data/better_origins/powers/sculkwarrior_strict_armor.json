@@ -1,0 +1,32 @@
+{
+  "type": "origins:multiple",
+  "name": "Bulky enough",
+  "description": "Your natural armor prevents you from wearing any additional armor & from flying with elytras.",
+  "no_armor": {
+    "type": "origins:restrict_armor",
+    "head": {
+      "type": "origins:armor_value",
+      "comparison": "!=",
+      "compare_to": 0
+    },
+    "chest": {
+      "type": "origins:armor_value",
+      "comparison": "!=",
+      "compare_to": 0
+    },
+    "legs": {
+      "type": "origins:armor_value",
+      "comparison": "!=",
+      "compare_to": 0
+    },
+    "feet": {
+      "type": "origins:armor_value",
+      "comparison": "!=",
+      "compare_to": 0
+    }
+  },
+  "no_elytras": {
+    "type": "origins:prevent_elytra_flight",
+    "hidden": true
+  }
+}
