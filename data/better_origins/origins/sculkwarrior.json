@@ -14,7 +14,8 @@
     "better_origins:sculkwarrior_roar",
     "better_origins:sculkwarrior_strict_armor",
     "better_origins:sculkwarrior_rocky_diet_preventing",
-    "better_origins:sculkwarrior_rocky_diet_eating"
+    "better_origins:sculkwarrior_rocky_diet_eating",
+    "better_origins:sculkwarrior_daredevil"
   ],
   "icon": "minecraft:sculk_shrieker",
   "order": 4,
