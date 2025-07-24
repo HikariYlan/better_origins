@@ -1,5 +1,6 @@
 {
   "type": "origins:invisibility",
+  "hidden": true,
   "condition": {
     "type": "origins:and",
     "conditions": [
