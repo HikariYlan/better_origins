@@ -7,7 +7,9 @@
     "better_origins:sculkwarrior_phasing_toggle",
     "better_origins:sculkwarrior_phasing_overlay",
     "better_origins:sculkwarrior_phasing_invisibility",
-    "better_origins:sculkwarrior_extra_reach"
+    "better_origins:sculkwarrior_extra_reach",
+    "better_origins:sculkwarrior_teammaker",
+    "better_origins:sculkwarrior_family"
   ],
   "icon": "minecraft:sculk_shrieker",
   "order": 4,
