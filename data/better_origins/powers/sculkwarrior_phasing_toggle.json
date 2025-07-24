@@ -1,5 +1,7 @@
 {
   "type": "origins:toggle",
+  "name": "Back from the sculk",
+  "description": "You are able to phase through sculk, which gives you the ability to see everything, while being invisible.",
   "key": {
     "key": "key.origins.primary_active",
     "continuous": false
