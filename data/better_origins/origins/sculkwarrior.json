@@ -11,7 +11,8 @@
     "better_origins:sculkwarrior_teammaker",
     "better_origins:sculkwarrior_family",
     "better_origins:sculkwarrior_prevent_sensor",
-    "better_origins:sculkwarrior_roar"
+    "better_origins:sculkwarrior_roar",
+    "better_origins:sculkwarrior_strict_armor"
   ],
   "icon": "minecraft:sculk_shrieker",
   "order": 4,
