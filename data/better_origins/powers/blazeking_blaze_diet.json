@@ -1,7 +1,7 @@
 {
   "type": "origins:prevent_item_use",
   "name": "Blaze diet",
-  "description": "You're a blaze. You don't have a stomach. How can you eat ??",
+  "description": "You're a blaze. You don't have a stomach. How can you eat ?",
   "item_condition": {
     "type": "origins:food"
   }

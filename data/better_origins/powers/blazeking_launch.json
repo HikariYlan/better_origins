@@ -1,6 +1,6 @@
 {
   "type": "origins:multiple",
-  "name": "Blaze Launch",
+  "name": "Blaze launch",
   "description": "Every 15 seconds, by using a blaze rod, you are able to launch about 20 blocks up into the air. You can also shoot fireballs by using blaze powder.",
   "cooldown": {
     "type": "origins:cooldown",
