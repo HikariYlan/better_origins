@@ -1,7 +1,7 @@
 {
   "type": "origins:launch",
   "cooldown": 100,
-  "name": "Ascending Flight",
+  "name": "Ascending flight",
   "description": "Every 5 seconds, you are able to launch about 20 blocks up into the air. Doesn't work under the rain or in water.",
   "hud_render": {
     "bar_index": 4

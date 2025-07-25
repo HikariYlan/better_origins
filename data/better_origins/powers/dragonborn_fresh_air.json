@@ -1,5 +1,5 @@
 {
-  "name": "Perfect Sleep",
+  "name": "Perfect sleep",
   "description": "To be able to sleep, you need to be at least 86 blocks high, while not being in a claustrophobic state.",
   "type": "origins:prevent_sleep",
   "condition": {

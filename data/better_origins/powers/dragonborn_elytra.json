@@ -1,7 +1,7 @@
 {
   "type": "origins:multiple",
   "name": "Wings",
-  "description": "Being a dragonborn offers you the possibility to fly. But be careful ! Water makes your wings heavy, so you will automatically retract them under the rain or in the water. You also can retract them manually by sneaking.",
+  "description": "Being a dragonborn offers you the possibility to fly. But be careful! Water makes your wings heavy, so you will automatically retract them under the rain or in the water. You also can retract them manually by sneaking.",
   "toggle": {
     "type": "origins:toggle",
     "active_by_default": false,
@@ -10,7 +10,7 @@
       "continuous": false
     }
   },
-  "elytra" : {
+  "elytra": {
     "type": "origins:elytra_flight",
     "render_elytra": true,
     "condition": {
