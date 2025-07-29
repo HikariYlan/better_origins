@@ -18,7 +18,8 @@
     "better_origins:sculkwarrior_daredevil",
     "better_origins:sculkwarrior_more_fall_damage",
     "better_origins:sculkwarrior_no_weapons",
-    "better_origins:sculkwarrior_no_bows_shield"
+    "better_origins:sculkwarrior_no_bows_shield",
+    "better_origins:sculkwarrior_particles"
   ],
   "icon": "minecraft:sculk_shrieker",
   "order": 4,
