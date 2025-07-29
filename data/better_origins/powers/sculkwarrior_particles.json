@@ -1,0 +1,9 @@
+{
+  "type": "origins:particle",
+  "particle": {
+    "type": "minecraft:dust",
+    "params": "0.027 0.180 0.250 1"
+  },
+  "frequency": 10,
+  "hidden": true
+}
